@@ -3,7 +3,7 @@ const API_KEY = process.env.NEXT_PUBLIC_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // POPULAR MOVIES
-console.log("TMDB KEY:", API_KEY);
+//console.log("TMDB KEY:", API_KEY);
 export const getPopularMovies = async () => {
   try {
     const response = await fetch(
@@ -19,7 +19,7 @@ export const getPopularMovies = async () => {
 
     return await response.json();
   } catch (error) {
-    console.log("POPULAR MOVIES ERROR:", error);
+    //console.log("POPULAR MOVIES ERROR:", error);
 
     return { results: [] };
   }
@@ -41,7 +41,7 @@ export const getMovieDetails = async (id) => {
 
     return await response.json();
   } catch (error) {
-    console.log("TMDB DETAILS ERROR:", error);
+    //console.log("TMDB DETAILS ERROR:", error);
 
     return null;
   }

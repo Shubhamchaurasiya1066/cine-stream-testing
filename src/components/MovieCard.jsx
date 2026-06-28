@@ -8,13 +8,13 @@ import { addFavorite } from "@/store/favoritesSlice";
 
 export default function MovieCard({ movie }) {
   const dispatch = useDispatch();
-console.log("Favorite clicked:", movie.title);
+//console.log("Favorite clicked:", movie.title);
   return (
     <div className="relative">
       <button
         onClick={(e) => {
   e.preventDefault();
-  console.log("Favorite clicked:", movie.title);
+  //console.log("Favorite clicked:", movie.title);
   dispatch(addFavorite(movie));
 }}
         className="absolute top-3 right-3 z-10 bg-red-500 px-2 py-1 rounded"
