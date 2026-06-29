@@ -101,6 +101,7 @@ npx jest --coverage
 ## 🌐 Deployment
 
 Frontend deployed using **Vercel**.
+Live Link:[(https://cine-stream-testing.vercel.app/)]
 
 ---
 
