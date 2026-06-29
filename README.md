@@ -50,7 +50,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/cine-stream.git
+git clone https://github.com/Shubhamchaurasiya1066/cine-stream.git
 ```
 
 Install dependencies
